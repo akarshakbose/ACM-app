@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quiz">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="307dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="30dp"
+        android:text="When did partition of bengal took place"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Spinner
+        android:id="@+id/issue"
+        android:layout_width="343dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"></Spinner>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="307dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="30dp"
+        android:text="Who is the only president to be removed by no-confidence motion"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/issue" />
+    <Spinner
+        android:id="@+id/issue1"
+        android:layout_width="343dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1"></Spinner>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="307dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="30dp"
+        android:text="Which is longest river of world"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/issue1" />
+    <Spinner
+        android:id="@+id/issue2"
+        android:layout_width="343dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"></Spinner>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="307dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="30dp"
+        android:text="Which is highest mountain range"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/issue2" />
+    <Spinner
+        android:id="@+id/issue3"
+        android:layout_width="343dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"></Spinner>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="165dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="30dp"
+        android:text="CHECK MARKS"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/issue3" />
+
+</android.support.constraint.ConstraintLayout>
